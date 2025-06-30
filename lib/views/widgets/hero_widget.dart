@@ -9,6 +9,7 @@ class HeroWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       alignment: Alignment.center,
+
       children: [
         Hero(
           tag: 'hero1',
@@ -29,7 +30,7 @@ class HeroWidget extends StatelessWidget {
               fontWeight: FontWeight.bold,
               fontSize: 50.0,
               letterSpacing: 50.0,
-              color: Colors.white30,
+              color: Colors.white,
             ),
           ),
         ),
